@@ -18,9 +18,6 @@ Usage:
 5. You cannot start multiple servers at once, you can start a new one once the current on is stopped   
 
 Example of config - 
-###############################################
-##  Discord Minecraft Manager Configuration  ##
-###############################################
 
 DiscordBot_token: Discord-.Bot-Token-Pasted_In
 Discord_Guild_ID: 11738476463788374
