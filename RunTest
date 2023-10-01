@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Starting test!"
+
+echo "Moving jar into place"
+cp out/DiscordMinecraftManager.jar Test/DiscordMinecraftManager.jar
+echo "jar put into place"
+
+echo "Making jar executable"
+cd Test
+chmod +x DiscordMinecraftManager.jar
+
+echo "Starting jar"
+java -jar DiscordMinecraftManager.jar
